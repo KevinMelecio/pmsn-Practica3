@@ -24,16 +24,16 @@ class MyTextField extends StatelessWidget {
         decoration: InputDecoration(
             enabledBorder: const OutlineInputBorder(
               borderSide: BorderSide(
-                color: Colors.grey,
+                // color: Colors.grey,
               ),
             ),
             focusedBorder: OutlineInputBorder(
               borderSide: BorderSide(color: Colors.black),
             ),
-            fillColor: Colors.white,
+            // fillColor: Colors.white,
             filled: true,
             hintText: hintText,
-            hintStyle: TextStyle(color: textColor),
+            // hintStyle: TextStyle(color: textColor),
           ),
       ),
     );

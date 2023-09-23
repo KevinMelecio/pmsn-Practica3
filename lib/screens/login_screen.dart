@@ -79,6 +79,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false, //para que pueda dimensionarse y no afecte el teclado de la pantalla
         body: SafeArea(
           child: Center(
             child: Column(
